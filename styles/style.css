@@ -1,0 +1,33 @@
+
+ html {
+  font-family: 'Playfair Display', serif; /* this should be the rest of the output you got from Google Fonts */
+  background-color: #A1B798;
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #A1B798;
+    text-shadow: 4px 4px 2px black;
+  }
+  p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #D1CBBE;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+}
