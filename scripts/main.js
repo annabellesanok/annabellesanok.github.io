@@ -2,33 +2,24 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/plants.png") {
-    myImage.setAttribute("src", "images/food.png");
-  } else {
+  if (mySrc === "images/food.png") {
     myImage.setAttribute("src", "images/plants.png");
+  } else {
+    myImage.setAttribute("src", "images/food.png");
   }
 };
 
-let myButton = document.querySelector("button");
-let myHeading = document.querySelector("h1");
 
-function setUserName() {
-    const myName = prompt("Please enter your name.");
-    if (!myName) {
-      setUserName();
-    } else {
-      localStorage.setItem("name", myName);
-      myHeading.textContent = `Mozilla is cool, ${myName}`;
-    }
-  }
-
-if (!localStorage.getItem("name")) {
-  setUserName();
-} else {
-  const storedName = localStorage.getItem("name");
-  myHeading.textContent = `Mozilla is cool, ${storedName}`;
+function showMessage() {
+    alert(" Outside of school, I like to read, cook, run, travel, and spend time with friends. ");
 }
 
-myButton.onclick = () => {
-    setUserName();
-  };
+
+function showImage() {
+    document.getElementById("img1").style.display = 'block'; 
+}
+
+function showImage2() {
+    document.getElementById("img2").style.display = 'block'; 
+}
+

@@ -9,19 +9,23 @@
   </head>
   <body>
     <h1>Annabelle Sanok</h1>
-    <img src="images/plants.png" alt="Photo of some of the plants I have in my room" />
-    <p>I am currently a third year combined Computer Science and Business Major with a concentration in Business Analytics. 
-        I graduate in May of 2025 and after college I hope to stay around Boston and become a 
-        <a href="https://www.coursera.org/articles/software-engineer">Software Engineer</a>.
+    <!--<img src="images/food.png" alt="Photo of some of the food I've made" /> -->
+    <p> I am currently a third year combined Computer Science and Business Major with a concentration in Business Analytics. 
+        I am originally from Weston, CT. I graduate in May of 2025 and after college I hope to stay around Boston and get 
+        a job in either software development or finance.
     </p>
-    <p>Outside of school, I enjoy</p>
+    <button id ='1' onclick="showMessage()">Click here to see what I like to do in my free time</button>
+    <p>Website Contents:</p>
     <ul> 
-        <li>cooking</li>
-        <li>reading</li>
-        <li>spending time with friends</li>
-        <li>tending to my plants</li>
+        <li>Personal interests and hobbies</li>
+        <li>Work experience</li>
+        <li>Technical skills</li>
+        <li>Career goals</li>
     </ul>
-    <button>Change user</button>
+    <img id="img1" src="images/plants.png" style="display:none;"/>
+    <button id='2' onclick="showImage()">Click here to see some of my plants</button> 
+    <img id="img2" src="images/food.png" style="display:none;"/>
+    <button id='3' onclick="showImage2()">Click here to see some of the food I've made </button> 
     <script src="scripts/main.js"></script>
   </body>
 </html>

@@ -1,21 +1,25 @@
 
  html {
-  font-family: 'Playfair Display', serif; /* this should be the rest of the output you got from Google Fonts */
+  font-family: 'Playfair Display', serif; 
   background-color: #A1B798;
 
   h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     margin: 0;
     padding: 20px 0;
     color: #A1B798;
     text-shadow: 4px 4px 2px black;
   }
-  
+
+  button {
+    text-align: center;
+  }
+
   p,
 li {
   font-size: 16px;
-  line-height: 2;
+  line-height: 1;
   letter-spacing: 1px;
 }
 
